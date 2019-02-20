@@ -6,13 +6,12 @@ inhibit_all_warnings!
 target 'TuningFork' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
-    pod 'AudioKit/Core'
+    pod 'AudioKit'
     pod 'Chronos-Swift'
 
   target 'TuningForkTests' do
     inherit! :search_paths
-        pod 'AudioKit/Core'
+        pod 'AudioKit'
         pod 'Chronos-Swift'
   end
 
